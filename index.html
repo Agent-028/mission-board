@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AgentH Mission Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome, Agent-028</h1>
+    <p id="countdown">D-XX</p>
+    <input type="text" id="missionInput" placeholder="Enter your mission">
+    <button onclick="addMission()">Add Mission</button>
+    <ul id="missionList"></ul>
+    <button onclick="toggleBGM()">Toggle BGM</button>
+    <audio id="bgm" loop>
+        <source src="audio/mission.mp3" type="audio/mpeg">
+    </audio>
+    <script src="script.js"></script>
+</body>
+</html>
